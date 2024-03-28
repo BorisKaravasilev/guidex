@@ -1,0 +1,56 @@
+/* _guidePreview.scss */
+
+#guidePreview {
+  background-color: $main-bg-color;
+  color: $main-text-color;
+  padding: $section-padding;
+
+  #profileImageRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #profileImage {
+    border-radius: 50%;
+    width: 160px;
+  }
+
+  #profileNameRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h5 {
+      margin: 0px;
+      padding: 10px 0px 0px 0px;
+      text-align: center;
+    }
+  }
+
+  #introductionCol {
+    display: flex;
+    align-items: center;
+
+    h4 {
+      font-size: 30px;
+    }
+
+    p {
+      margin: 0px;
+    }
+  }
+
+  @media (max-width: 991.98px) {
+    #introductionCol {
+      padding: 0px 0px 0px 25px;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    #introductionCol {
+      padding: 0px;
+      margin-top: 25px;
+    }
+  }
+}

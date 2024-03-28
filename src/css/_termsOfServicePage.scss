@@ -1,0 +1,12 @@
+/* _termsOfServicePage.scss */
+
+#termsOfServicePage {
+  padding: $section-padding;
+  text-align: left;
+  color: $secondary-text-color;
+
+  h4,
+  h5 {
+    font-weight: bold;
+  }
+}

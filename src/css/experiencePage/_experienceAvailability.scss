@@ -1,0 +1,180 @@
+/* _experienceDates.scss */
+
+#experienceAvailability {
+  padding: $section-padding;
+  padding-top: 0px;
+
+  #viewDetailsBtn {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .usersInfo {
+    padding-top: 20px;
+  }
+
+  #dateTimeInfoCol {
+    display: flex;
+    align-items: center;
+  }
+
+  .table td,
+  .table th {
+    padding: 0.25em;
+  }
+
+  #dateTimeInfoCol {
+    #dateRow {
+      width: 100%;
+
+      #dateCol,
+      #timeCol {
+        display: flex;
+        align-items: center;
+        text-align: left;
+        justify-items: flex-start;
+        padding: 0px;
+      }
+
+      i {
+        font-size: 25px;
+      }
+
+      #dateIcon {
+        margin-right: 10px;
+      }
+
+      #timeIcon {
+        margin: 0px 10px 0px 25px;
+      }
+
+      h5 {
+        margin: 0px;
+      }
+    }
+  }
+
+  #buttonsCol {
+    #likeBtnCol {
+      padding: 0px 10px 0px 0px;
+    }
+  }
+
+  .dateBox {
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    margin: 15px 0px;
+    padding: 10px;
+  }
+
+  @media (max-width: 767.98px) {
+    #dateTimeInfoCol {
+      padding: 5px 0px 15px 0px;
+
+      #dateRow {
+        #dateCol,
+        #timeCol {
+          justify-content: center;
+        }
+
+        #timeIcon {
+          margin: 0px 10px 0px 0px;
+        }
+      }
+    }
+
+    #buttonsCol {
+      button {
+        width: 100%;
+      }
+
+      #likeBtnCol {
+        padding: 0px 5px 0px 0px;
+      }
+
+      #regBtnCol {
+        padding: 0px 0px 0px 5px;
+      }
+    }
+
+    .usersInfo {
+      padding-top: 15px;
+    }
+  }
+
+  @media (max-width: 575.98px) {
+    #dateTimeInfoCol {
+      #dateRow {
+        #dateCol,
+        #timeCol {
+          justify-content: flex-start;
+        }
+
+        #dateCol {
+          padding-bottom: 5px;
+        }
+
+        i {
+          font-size: 4.8vw;
+        }
+
+        h5 {
+          font-size: 5.5vw;
+        }
+
+        #ampmTime {
+          font-size: 4.5vw;
+        }
+      }
+    }
+
+    #buttonsCol {
+      #likeBtnCol {
+        padding: 0px;
+        margin-bottom: 10px;
+      }
+
+      #regBtnCol {
+        padding: 0px;
+      }
+
+      #logInToViewBtn {
+        font-size: 4vw;
+      }
+    }
+  }
+
+  @media (max-width: 400px) {
+    #viewDetailsBtn {
+      font-size: 5vw;
+    }
+
+    #dateTimeInfoCol {
+      #dateRow {
+        i {
+          font-size: 6vw;
+        }
+
+        h5 {
+          font-size: 8vw;
+        }
+
+        #ampmTime {
+          font-size: 6.3vw;
+        }
+      }
+    }
+
+    #buttonsCol {
+      button {
+        font-size: 5.3vw;
+      }
+
+      #logInToViewBtn {
+        font-size: 4vw;
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+/* _welcome.scss */
+
+#welcome {
+  background-color: $secondary-bg-color;
+  color: $secondary-text-color;
+  padding: $section-padding;
+
+  #welcome-video {
+    border-radius: 0.25rem;
+  }
+
+  #welcomeTextCol {
+    text-align: left;
+    margin: auto;
+
+    @media (max-width: 767.98px) {
+      button {
+        margin-bottom: 20px;
+        width: 100%;
+      }
+    }
+  }
+}

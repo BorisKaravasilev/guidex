@@ -1,0 +1,63 @@
+// ----------------------------------------------- Variables
+
+//Fonts
+$heading-font: 'Quicksand', sans-serif;
+$secondary-font: 'Open Sans', sans-serif;
+
+// Color sheme
+$main-bg-color: #4a90e2;
+$main-text-color: white;
+
+$secondary-bg-color: #eef7ff;
+$secondary-text-color: black;
+
+// Spacing
+$section-padding: 4vh;
+
+// ------------------------------------------------ Importing partials
+@import 'navBar';
+@import 'footer';
+
+@import 'homePage';
+@import 'experiencesPage';
+@import 'experiencePage';
+@import 'aboutUsPage';
+@import 'registrationPage';
+@import 'loginPage';
+
+@import 'notFoundPage';
+@import 'privacyPolicyPage';
+@import 'termsOfServicePage';
+
+@import 'verificationPage';
+
+// General styles
+* {
+  font-family: $secondary-font;
+  font-size: 20px;
+}
+
+.page {
+  min-height: 74.85vh;
+  background-color: $secondary-bg-color;
+  color: $secondary-text-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font;
+}
+
+h3 {
+  font-size: 45px;
+}
+
+@media (max-width: 576px) {
+  h3 {
+    font-size: 13vw;
+  }
+}

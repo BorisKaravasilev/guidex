@@ -1,0 +1,43 @@
+/* _aboutUsPage.scss */
+
+#aboutUsPage {
+  padding: $section-padding;
+  text-align: left;
+
+  a {
+    color: black;
+  }
+
+  h4 {
+    font-size: 36px;
+  }
+
+  h5 {
+    font-size: 28px;
+  }
+
+  h6 {
+    font-size: 22px;
+    font-style: italic;
+  }
+
+  img {
+    border-radius: 0.25rem;
+  }
+
+  @media (max-width: 1199.98px) {
+    .row {
+      margin: 20px 0px;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    h5 {
+      margin-top: 20px;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}

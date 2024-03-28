@@ -1,0 +1,11 @@
+export const VERIFICATION = '/verification';
+export const EXPERIENCES_ID = '/experiences/:id';
+export const EXPERIENCES = '/experiences';
+export const ABOUT_US = '/about-us';
+export const SIGN_UP = '/sign-up';
+export const LOG_IN = '/log-in';
+export const NOT_FOUND = '/not-found';
+export const TERMS = '/terms-of-service';
+export const PRIVACY = '/privacy-policy';
+export const LANDING = '/';
+export const HOME = '/home';

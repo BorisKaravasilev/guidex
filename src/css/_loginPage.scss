@@ -1,0 +1,47 @@
+/* _loginPage.scss */
+
+#loginPage {
+  padding: $section-padding;
+  color: $secondary-text-color;
+
+  #registerCol {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  #registerLink {
+    margin: 0px 10px;
+  }
+
+  @media (max-width: 575.98px) {
+    padding: $section-padding 0px;
+
+    .btn {
+      width: 100%;
+    }
+
+    #registerCol {
+      justify-content: center;
+      margin: 15px 0px;
+    }
+  }
+
+  form {
+    width: 55%;
+    margin: auto;
+    text-align: left;
+  }
+
+  @media (max-width: 1199.98px) {
+    form {
+      width: 80%;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    form {
+      width: 100%;
+    }
+  }
+}

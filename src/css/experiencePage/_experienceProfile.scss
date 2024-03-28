@@ -1,0 +1,165 @@
+/* _experienceProfile.scss */
+
+#experienceProfile {
+  padding: $section-padding;
+
+  #expProfileSlider {
+    width: 100%;
+
+    .carousel-inner {
+      border-radius: 0.25rem;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+      width: 10%;
+    }
+  }
+
+  h3 {
+    margin-bottom: 15px;
+  }
+
+  #details {
+    i {
+      margin-right: 5px;
+      font-size: 24px;
+    }
+
+    h4 {
+      font-size: 27px;
+      display: inline-block;
+      margin: 0;
+    }
+
+    .row {
+      margin: 0px 0px 8px 0px;
+    }
+
+    #detailsRow {
+      padding: 0px 0px;
+    }
+
+    .icon,
+    .titleCol,
+    .infoCol {
+      display: flex;
+      align-items: center;
+    }
+
+    .icon {
+      width: 8%;
+      text-align: left;
+    }
+
+    .titleCol {
+      width: 30%;
+    }
+
+    .infoCol {
+      width: 62%;
+    }
+  }
+
+  .info {
+    padding: 0px 0px 0px 10px;
+    font-weight: bolder;
+    font-size: 22px;
+  }
+
+  #descriptionRow {
+    margin: 10px 0px 0px 0px;
+
+    h4 {
+      font-size: 30px;
+    }
+  }
+}
+
+@media (max-width: 1199.98px) {
+  #experienceProfile {
+    #details {
+      .icon {
+        width: 10%;
+        text-align: left;
+      }
+
+      .titleCol {
+        width: 40%;
+      }
+
+      .infoCol {
+        width: 50%;
+      }
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  #experienceProfile {
+    #details {
+      #detailsRow {
+        padding: 5px 0px 20px 0px;
+      }
+
+      .icon {
+        width: 6%;
+        text-align: left;
+      }
+
+      .titleCol {
+        width: 24%;
+      }
+
+      .infoCol {
+        width: 70%;
+      }
+    }
+
+    #descriptionRow {
+      margin: 25px 0px 0px 0px;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  #experienceProfile {
+    #details {
+      .icon {
+        width: 10%;
+        text-align: left;
+      }
+
+      .titleCol {
+        width: 40%;
+      }
+
+      .infoCol {
+        width: 50%;
+      }
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  #experienceProfile {
+    #details {
+      h4 {
+        font-size: 5.5vw;
+      }
+
+      .icon {
+        width: 10%;
+        text-align: left;
+      }
+
+      .titleCol {
+        width: 40%;
+      }
+
+      .infoCol {
+        width: 50%;
+      }
+    }
+  }
+}

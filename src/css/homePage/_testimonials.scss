@@ -1,0 +1,53 @@
+/* _testimonials.scss */
+
+#testimonials {
+  background-color: $secondary-bg-color;
+  color: $secondary-text-color;
+  padding: $section-padding;
+
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .carousel-control-prev-icon {
+    background-image: url('../components/pages/homePage/arrow.png');
+    transform: rotate(180deg);
+  }
+
+  .carousel-control-next-icon {
+    background-image: url('../components/pages/homePage/arrow.png');
+  }
+
+  .carousel-inner {
+    width: 84% !important;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 8% !important;
+  }
+
+  @media (max-width: 991.98px) {
+    .container {
+      max-width: 100%;
+      padding: 0px;
+    }
+
+    .carousel-inner {
+      width: 80% !important;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+      width: 10% !important;
+    }
+  }
+
+  @media (max-width: 575.98px) {
+    #profile {
+      margin: auto;
+    }
+  }
+}

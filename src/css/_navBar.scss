@@ -1,0 +1,112 @@
+/* _navBar.scss */
+
+#navBar {
+  background-color: $main-bg-color;
+
+  #username {
+    color: $secondary-text-color;
+    font-style: italic;
+    background-color: $secondary-bg-color;
+    border-radius: 5px;
+    margin: auto 10px;
+    padding: 3px 10px 3px 10px;
+  }
+
+  @media (max-width: 1024px) {
+    #username {
+      margin: 0px 0px 20px 0px;
+    }
+  }
+
+  #btn-log-in {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  h1,
+  h2,
+  a {
+    color: $main-text-color;
+  }
+
+  a {
+    transition: transform 0.1s;
+  }
+
+  ul a:hover,
+  ul .active {
+    font-weight: 700;
+    transform: scale(1.05);
+  }
+
+  .navbar-brand {
+    margin: 0px;
+    padding: 0px;
+
+    h1 {
+      font-size: 13vh;
+      line-height: 13vh;
+      margin: 0px;
+    }
+
+    h2 {
+      font-size: 2vh;
+      text-align: center;
+    }
+
+    @media (max-width: 465px) {
+      h1 {
+        font-size: 21vw;
+        line-height: 21vw;
+        margin: 0px;
+      }
+
+      h2 {
+        font-size: 3.3vw;
+      }
+    }
+
+    @media (max-width: 330px) {
+      h1 {
+        font-size: 28vw;
+        line-height: 28vw;
+        margin: 0px;
+      }
+
+      h2 {
+        font-size: 4.4vw;
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  .navbar-toggler {
+    border-color: $main-text-color;
+    color: $main-text-color;
+    padding: 15px 10px;
+
+    span {
+      display: none;
+    }
+  }
+
+  @media (max-width: 465px) {
+    .navbar-toggler {
+      font-size: 4vw;
+    }
+  }
+
+  @media (max-width: 330px) {
+    .navbar-toggler {
+      font-size: 5.5vw;
+      padding: 10px 36vw;
+      margin-bottom: 8px;
+    }
+  }
+
+  @media (max-width: 330px) {
+    .navbar-brand {
+      margin: auto;
+    }
+  }
+}
